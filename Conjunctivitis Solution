@@ -6,7 +6,6 @@ Embark on a journey of innovation and discovery with our latest research endeavo
 
 🛠️ Methodology: Our approach is meticulous and comprehensive. We meticulously curated a robust dataset comprising 538 diverse eye images, capturing the spectrum of conjunctivitis presentations. Leveraging a hybrid CNN algorithm, blending pre-trained networks and bespoke models, we're pushing the boundaries of diagnostic accuracy. Python scripts crunch the numbers, computing precision metrics and confusion matrices to validate our findings.
 
-
 ![Collected Images (1)](https://github.com/EshaRana17/conjunctivitisSolution/assets/143960558/78356aee-c34e-4a51-a5ba-0fefc01eb64f)
 Fig. 1 Process of methodology 
 
