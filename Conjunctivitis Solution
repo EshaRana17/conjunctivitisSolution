@@ -1,0 +1,56 @@
+🌟 Introducing: Conjunctivitis Solution 🌟
+
+Embark on a journey of innovation and discovery with our latest research endeavor! We're thrilled to unveil our groundbreaking study aimed at revolutionizing the diagnosis and management of eye diseases, particularly conjunctivitis.
+
+🔍 Background: Dive into the heart of our research, where we unveil the development and assessment of a cutting-edge computer-assisted detection system. Harnessing the power of deep convolutional networks (CNN), we're pioneering a new era in ocular healthcare by accurately identifying different types and severities of conjunctivitis.
+
+🛠️ Methodology: Our approach is meticulous and comprehensive. We meticulously curated a robust dataset comprising 538 diverse eye images, capturing the spectrum of conjunctivitis presentations. Leveraging a hybrid CNN algorithm, blending pre-trained networks and bespoke models, we're pushing the boundaries of diagnostic accuracy. Python scripts crunch the numbers, computing precision metrics and confusion matrices to validate our findings.
+
+
+![Collected Images (1)](https://github.com/EshaRana17/conjunctivitisSolution/assets/143960558/78356aee-c34e-4a51-a5ba-0fefc01eb64f)
+Fig. 1 Process of methodology 
+
+📊 Results: Prepare to be amazed by our findings! Through rigorous testing and validation, our CNN algorithm achieved an astounding diagnostic accuracy of 98.7%. From discerning between conjunctivitis types to gauging severity levels, our model excelled. Witness the power of machine learning through detailed analyses, including precision-recall curves and receiver operating characteristic (ROC) curves, showcasing the transformative impact of our approach.
+
+🎉 Conclusion: Our research isn't just groundbreaking—it's game-changing. By harnessing the capabilities of deep CNNs, specifically the VGG-16 architecture, we're paving the way for enhanced diagnostic capabilities in ocular healthcare. Our results underscore the superiority of machine-learning models in classifying conjunctivitis and assessing severity, promising a brighter future for patients and practitioners alike. Stay tuned as we refine our dataset further, propelling computer-aided diagnosis systems to new heights in diagnosing and staging eye diseases.
+
+Join us in celebrating the future of ocular healthcare! Together, let's envision a world where technology empowers us to see clearer and brighter than ever before. 🚀👁️💡 #ConjunctivitisSolution #InnovationInHealthcare #MachineLearningMarvels
+
+Model performance result for PCT classification
+The binary classification approach and the multiclassification approach for eye disease significantly differed (p=0.037). The model's overall diagnostic performance in binary classification achieved 100% accuracy. Precision, recall, and F1 scores are also perfect. This indicates flawless discrimination between conjunctivitis and healthy eyes. In the confusion matrix, 33 test samples correctly predicted conjunctivitis, and 25 predicted healthy eyes.
+ 
+ ![binary classification-confusion matrix](https://github.com/EshaRana17/conjunctivitisSolution/assets/143960558/acec246b-bf99-4469-a94c-4902f3d6c687)
+Fig. 2 Binary classification confusion matrix using a deep CNN classifier
+ 
+ 
+ 
+ ![binary classification-loss measure](https://github.com/EshaRana17/conjunctivitisSolution/assets/143960558/9d969d74-6fb8-4153-8e88-25e61a8c51bc)
+
+
+Fig. 3 Binary classification training and validating accuracy and loss
+ 
+The training log provided in Fig.3 shows the model's performance for 20 epochs. During training, accuracy of the training dataset increases steadily, eventually reaching 99.5%. The training loss also decreases, which indicates effective learning. The accuracy of the validation set approaches 100%. This shows that the model is able to generalize to unknown data. Validation loss is also reduced, indicating that the model minimizes errors both during training and validation. This is indicative of a successful binary classification.
+ 
+ ![multiclassification -confusion matrix](https://github.com/EshaRana17/conjunctivitisSolution/assets/143960558/96ef3bc3-f33c-4813-9810-986611077925)
+Fig. 4 Multi-classification confusion matrix using a deep CNN classifier
+ 
+ ![multiclassification -loss measure](https://github.com/EshaRana17/conjunctivitisSolution/assets/143960558/f937f6b5-80b0-4145-86bd-98db0392fc17)
+Fig. 5 Multi- classification training and validating accuracy and loss
+ 
+The log of training in Fig. 5 gives an insight into the performance of the model over 20 epochs. There is a noticeable reduction in training and validation loss, which indicates effective learning. Similarly, accuracy improves steadily, reaching 98.51% on the training set and 100% on the validation set. As epochs advance, the learning rate decreases. These trends indicate successful model training and robust generalization of unseen data.
+ 
+Accuracy,Precision,Recall,F1 score
+Table 1 shows metrics for accuracy, precision, and recall of the machine learning model in predicting eye diseases. The model performed well in the multiclassification task, which included five categories: "atopic conjunctivitis," "healthy eyes," "viral conjunctivitis," "uveitis," and “bacterial conjunctivitis." The accuracy, precision, and recall of the test were all higher than 98%. And the F1 score for this model was 98.69%. The confusion matrix showed that the model correctly classified every category.
+The model performed flawlessly when asked to distinguish between "healthy eye" and "conjunctivitis." Test accuracy, precision recall, and F1 scores were all 100%.
+ 
+ 
+Table 1..Accuracy,Precision,Recall,F1 score
+ ![image](https://github.com/EshaRana17/conjunctivitisSolution/assets/143960558/054dad9e-8925-45f4-badc-89465e0316f5)
+
+
+Further analysis of the multi-classification results revealed that the model achieved 1.0, perfect agreement for both binary and multi-classification.
+
+
+For detail visit https://youtu.be/wrJPDMoouCc?si=DtQdtEfJA3uLuRhk
+and my projects on my linked in https://www.linkedin.com/in/esha-sabir-3b269a220/
+
